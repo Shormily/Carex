@@ -1,0 +1,69 @@
+.display{
+    margin: 0;
+    align-items: center;
+   
+}
+p{
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 900;
+}
+.about-bg-img{
+    background-image: url(../Images/pink.jpg);
+    padding: 20px;
+}
+
+input{
+    border: none;
+}
+.googole-btn{
+    border: none;
+    background-color: rgb(80, 81, 148);
+    border-radius:5px ;
+    padding: 5px;
+    color: white;
+    
+}
+.countup-font{
+    font-size: 50px;
+    /* font-family: 'Anek Tamil', sans-serif; */
+    font-weight: 900;
+    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'M PLUS 1', sans-serif;
+    /* color: rgb(102, 194, 243); */
+    color: black;
+    text-shadow: 2px 2px 3px rgb(21, 22, 23);
+    
+}
+.colors{
+    color:black;
+    text-shadow: 2px 2px 3px rgb(21, 22, 23);
+}
+
+/* ==================== */
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.img-col{
+    color:white;
+    text-shadow: 2px 2px 3px rgb(21, 22, 23);
+}
+.story-section{
+    width:100%;
+    height: 15.125rem;
+    background-image: url(../Images/pink.jpg) ;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.37rem 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}

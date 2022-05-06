@@ -1,0 +1,60 @@
+.carousel-three{
+    background: url(../Images/img1.jpg) no-repeat center center;
+    background-size: cover;
+   
+    padding: 240px 40px;
+    color: #edf6f9;
+  }
+  
+  .carousel-one{
+    background: url(../Images/12.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 203px 40px;
+    color: #edf6f9;
+  }
+  .title-1{
+      font-weight: 400;
+  }
+  
+  .banner-title {
+    font-size: 60px;
+  }
+  .text-shadow{
+      text-shadow: 2px 2px 6px black;
+      font-weight: 600;
+  }
+  .card-bg:hover{
+    background-image: url(../Images/img1.jpg);
+    /* background-repeat: no-repeat; */
+    background: 50%;
+  }
+  .hover:hover{
+      background-color: black;
+      color: #fff;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .carousel-one,
+    .carousel-two,
+    .carousel-three {
+      padding: 50px 20px;
+    }
+    .banner-title {
+      font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .banner-title {
+      font-size: 24px;
+      margin: 0 !important;
+    }
+    .banner-sub-title {
+      font-size: 14px;
+      margin: 0 !important;
+    }
+    .banner-text {
+      font-size: 14px;
+      margin-bottom: 10px !important;
+    }
+  }

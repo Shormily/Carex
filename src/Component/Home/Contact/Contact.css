@@ -1,0 +1,23 @@
+input[type=text] {
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  /* width: 500px; */
+  }
+  input:focus {
+    border-color: green
+  }
+  textarea{
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+  width: 500px;
+  }
+  .omor{
+    background-color:  rgb(107, 107, 245);;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-family: 'M PLUS 1', sans-serif;
+    font-weight: 700;
+  }
